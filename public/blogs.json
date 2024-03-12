@@ -1,93 +1,53 @@
 [
     {
       "id": 1,
-      "cover": "https://postimg.cc/ppz363Lr",
+      "author": "Mamun Khan",
+      "cover": "https://www.shutterstock.com/image-photo/blog-blogging-homepage-social-media-600nw-381746308.jpg",
       "title": "The Art of Programming",
-      "author_img": "author1.jpg",
+      "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KZ4XP653iypv6RGaJWyFXT0DniNE_KiJBQ&usqp=CAU",
       "posted_date": "2024-03-12",
       "reading_time": 30,
       "hashtag": ["programming", "coding", "technology"]
     },
     {
       "id": 2,
-      "cover": "https://postimg.cc/ppz363Lr",
+      "author": "Sabuj Khan",
+      "cover": "https://images.yourstory.com/cs/wordpress/2017/02/52-Blog.jpg",
       "title": "Exploring the Universe",
-      "author_img": "author2.jpg",
+      "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KZ4XP653iypv6RGaJWyFXT0DniNE_KiJBQ&usqp=CAU",
       "posted_date": "2024-03-11",
       "reading_time": 31,
       "hashtag": ["space", "astronomy", "science"]
     },
     {
         "id": 3,
-        "cover": "https://postimg.cc/ppz363Lr",
+        "author": "Sumon Khan",
+        "cover": "https://thumbs.dreamstime.com/b/blogging-blog-word-coder-coding-using-laptop-page-keyboard-notebook-blogger-internet-computer-marketing-opinion-interface-layout-80864637.jpg",
         "title": "Healthy Cooking Guide",
-        "author_img": "author3.jpg",
+        "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KZ4XP653iypv6RGaJWyFXT0DniNE_KiJBQ&usqp=CAU",
         "posted_date": "2024-03-10",
         "reading_time": 23,
         "hashtag": ["cooking", "health", "recipes"]
       },
       {
         "id": 4,
-        "cover": "https://postimg.cc/ppz363Lr",
+        "author": "Sajib Khan",
+        "cover": "https://t4.ftcdn.net/jpg/01/15/68/25/360_F_115682552_YxdQCFJoetVw6K2hl2u6iQtqJn0nMFEl.jpg",
         "title": "Mastering Photography",
-        "author_img": "author4.jpg",
+        "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KZ4XP653iypv6RGaJWyFXT0DniNE_KiJBQ&usqp=CAU",
         "posted_date": "2024-03-09",
         "reading_time":55,
         "hashtag": ["photography", "art", "creativity"]
       },
       {
         "id": 5,
-        "cover": "https://postimg.cc/ppz363Lr",
+        "author": "Sahid Khan",
+        "cover": "https://t4.ftcdn.net/jpg/01/17/32/27/360_F_117322756_vSqIgnsaz0FUekTHFbY0ib1PxGXC7fus.jpg",
         "title": "Mindfulness Meditation",
-        "author_img": "author5.jpg",
+        "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KZ4XP653iypv6RGaJWyFXT0DniNE_KiJBQ&usqp=CAU",
         "posted_date": "2024-03-08",
         "reading_time": 5,
         "hashtag": ["mindfulness", "meditation", "wellness"]
-      },
-      {
-        "id": 6,
-        "cover": "https://postimg.cc/ppz363Lr",
-        "title": "Financial Planning 101",
-        "author_img": "author6.jpg",
-        "posted_date": "2024-03-07",
-        "reading_time": 21,
-        "hashtag": ["finance", "money", "investing"]
-      },
-      {
-        "id": 7,
-        "cover": "https://postimg.cc/ppz363Lr",
-        "title": "World History: A Brief Overview",
-        "author_img": "author7.jpg",
-        "posted_date": "2024-03-06",
-        "reading_time": 45,
-        "hashtag": ["history", "education", "knowledge"]
-      },
-      {
-        "id": 8,
-        "cover": "https://postimg.cc/ppz363Lr",
-        "title": "The Art of Storytelling",
-        "author_img": "author8.jpg",
-        "posted_date": "2024-03-05",
-        "reading_time": 9,
-        "hashtag": ["storytelling", "narrative", "communication"]
-      },
-      {
-        "id": 9,
-        "cover": "chttps://postimg.cc/ppz363Lr",
-        "title": "DIY Home Improvement",
-        "author_img": "author9.jpg",
-        "posted_date": "2024-03-04",
-        "reading_time": 23,
-        "hashtag": ["DIY", "home", "decor"]
-      },
-      {
-        "id": 10,
-        "cover": "https://postimg.cc/ppz363Lr",
-        "title": "Effective Time Management Techniques",
-        "author_img": "author10.jpg",
-        "posted_date": "2024-03-03",
-        "reading_time": 12,
-        "hashtag": ["timemanagement", "productivity", "selfimprovement"]
       }
   ]
   
