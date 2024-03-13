@@ -9,6 +9,7 @@ function App() {
 
 
   const [bookmarks, setbookmarks] = useState([]);
+  const [markAsRead, setMarkAdRead] = useState(0)
 
   const handleBookMarks = blog => {
     const newBookmarks = [...bookmarks, blog]
@@ -16,14 +17,28 @@ function App() {
   }
 
 
+  const markAsReadTime = (id, time) => {
+    const newReadTime = (markAsRead + time)
+    setMarkAdRead(newReadTime)
+
+    // console.log('remov', id)
+    // remove the read blog from bookmark
+
+    const remainingBokmark = bookmarks.filter(bookmark => bookmark.id !== id)
+    setbookmarks(remainingBokmark)
+
+
+
+  }
+
   return (
     <>
       <Header></Header>
 
       <div className='md:flex gap-9  px-4'>
 
-      <Blogs handleBookMarks={handleBookMarks}></Blogs>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+      <Blogs handleBookMarks={handleBookMarks} markAsReadTime={markAsReadTime}></Blogs>
+      <Bookmarks bookmarks={bookmarks} markAsRead={markAsRead}></Bookmarks>
       </div>
     
     </>
