@@ -11,7 +11,8 @@ function App() {
   const [bookmarks, setbookmarks] = useState([]);
 
   const handleBookMarks = blog => {
-    console.log('commin soon bookmarks')
+    const newBookmarks = [...bookmarks, blog]
+    setbookmarks(newBookmarks)
   }
 
 
@@ -22,7 +23,7 @@ function App() {
       <div className='md:flex gap-9  px-4'>
 
       <Blogs handleBookMarks={handleBookMarks}></Blogs>
-      <Bookmarks></Bookmarks>
+      <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     
     </>

@@ -23,7 +23,7 @@ const Blog = ({blog, handleBookMarks}) => {
 
         <div>
     <span>{reading_time} min read</span>
-    <button onClick={handleBookMarks} className='ml-2'><FaBookmark></FaBookmark></button>
+    <button onClick={() => handleBookMarks(blog)} className='ml-2'><FaBookmark></FaBookmark></button>
         </div>
 
 
@@ -42,7 +42,8 @@ const Blog = ({blog, handleBookMarks}) => {
 }
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookMarks: PropTypes.func
 }
 
 
